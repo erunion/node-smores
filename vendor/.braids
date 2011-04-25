@@ -1,8 +1,0 @@
---- 
-node-campfire: 
-  branch: master
-  remote: braid/node-campfire
-  revision: 2295f72a12167520416563b3d93db6298c431342
-  squashed: true
-  type: git
-  url: https://github.com/tristandunn/node-campfire.git
