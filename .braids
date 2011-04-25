@@ -6,13 +6,6 @@ vendor/node-campfire:
   squashed: true
   type: git
   url: https://github.com/tristandunn/node-campfire.git
-vendor/nomnomargs: 
-  branch: master
-  remote: braid/vendor/nomnomargs
-  revision: 8293e17e00445bcd6550328a9cf3f21bbec8c47f
-  squashed: true
-  type: git
-  url: https://github.com/harthur/nomnomargs.git
 vendor/underscore: 
   branch: master
   remote: braid/vendor/underscore
