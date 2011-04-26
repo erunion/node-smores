@@ -21,7 +21,7 @@ Run node-smores:
 
     node run.js --room=ROOM
 
-Note that `--room` accepts either the ID of your room, or its name. It's bad ass like that.
+Note that `--room` accepts either the ID of your room, or its name. It's badass like that.
 
 # Plugins
 
