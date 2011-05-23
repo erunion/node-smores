@@ -10,6 +10,6 @@
   "main": "lib/smores.js",
   "keywords": ["campfire", "bot"],
   "dependencies": {
-    "nomnom": ">= 0.3.0"
+    "nomnom": ">= 0.4.1"
   }
 }
