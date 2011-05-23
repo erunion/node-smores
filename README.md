@@ -30,7 +30,7 @@ node-smores is controlled via plugins in `lib/plugins`, and as such, has an easy
 Plugins consist of a singular function with a command that consists of at least three variables:
 
 1. `name` - Name of the plugin.
-2. `regex` - Regex applied to messages to capture and execute this command.
+2. `regex` - Regex applied to messages to capture and execute this command. As of v0.2 this can be an array of regular expressions if your plugin requires multiple triggers.
 3. `callback` - Code to execute for this command.
 
 The order of arguments for the callback are as such:
@@ -39,6 +39,7 @@ The order of arguments for the callback are as such:
 * `message` - The message object as returned from the Campfire API.
 * `room` - The current room object as returned from node-campfire.
 * `smores` - The instance node-smores object.
+* `config` - (optional) As of v0.2 plugins can have their own configuration files so if your plugin requires its own configuration file (config.js), node-smores will dump the contents of that into this argument. If your plugin doesn't need any of that, this argument will not be present.
 
 The following is a simple plugin to respond to "/ping" calls.
 
@@ -59,6 +60,6 @@ The following is a simple plugin to respond to "/ping" calls.
 
 Simple.
 
-#Mentions
+# Mentions
 
 * A majority of the code surrounding how plugins work was borrowed from https://github.com/indiefan/nodebot
