@@ -1,5 +1,6 @@
 {
   "account": "CAMPFIRE-DOMAIN",
   "token": "CAMPFIRE-TOKEN",
-  "ssl": true
+  "ssl": true,
+  "verbose": false
 }

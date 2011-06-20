@@ -1,7 +1,7 @@
 {
   "name": "node-smores",
   "description": "An extensible Node.js bot for Campfire.",
-  "version": "0.2.1",
+  "version": "0.3",
   "author": "Jon Ursenbach <jon@ursenba.ch>",
   "repository": {
     "type": "git",
@@ -10,6 +10,6 @@
   "main": "lib/smores.js",
   "keywords": ["campfire", "bot"],
   "dependencies": {
-    "nomnom": ">= 0.4.1"
+    "nomnom": ">= 0.5.0"
   }
 }
