@@ -1,8 +1,0 @@
---- 
-vendor/node-campfire: 
-  branch: master
-  remote: braid/vendor/node-campfire
-  revision: 6708315e38b4df262b0cf259fbb5a4bd3355eb96
-  squashed: true
-  type: git
-  url: https://jonursenbach@github.com/jonursenbach/node-campfire.git

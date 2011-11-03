@@ -1,15 +1,32 @@
 {
-  "name": "node-smores",
+  "name": " smores",
   "description": "An extensible Node.js bot for Campfire.",
-  "version": "0.3",
-  "author": "Jon Ursenbach <jon@ursenba.ch>",
+  "version": "0.3.0",
+  "homepage": "http://github.com/jonursenbach/node-smores",
+  "author": "Jon Ursenbach <jon@ursenba.ch> (http://jon.ursenba.ch)",
+  "licenses" : [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonursenbach/node-smores/blob/master/LICENSE"
+    }
+  ],
+
   "repository": {
     "type": "git",
     "url": "http://github.com/jonursenbach/node-smores.git"
   },
-  "main": "lib/smores.js",
-  "keywords": ["campfire", "bot"],
+
+  "bugs": {
+    "url": "https://github.com/jonursenbach/node-smores/issues",
+    "mail": "jon@ursenba.ch"
+  },
+
   "dependencies": {
-    "nomnom": ">= 0.5.0"
-  }
+    "nomnom": ">= 0.5.0",
+    "node-campfire": ">= 0.1.0"
+  },
+
+  "main": "lib/smores.js",
+
+  "keywords": ["campfire", "bot"]
 }
