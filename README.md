@@ -7,7 +7,7 @@ node-smores is a simple extensible bot for Campfire.
 * A valid [Campfire](http://campfirenow.com/) account.
 * [Node.js](http://nodejs.org) >= 0.4.7
 * [nomnom](https://github.com/harthur/nomnom) >= 0.5.0
-* [node-campfire](https://github.com/jonursenbach/node-campfire) >= 0.1.0
+* [node-campfire](https://github.com/tristandunn/node-campfire) >= 0.1.0
 
 # Running node-smores
 
