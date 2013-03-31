@@ -1,3 +1,5 @@
+*node-smores is no longer in active development. I recommend just using Github's Hubot instead as it's stable and has a very active community. https://github.com/github/hubot*
+
 # node-smores
 
 node-smores is a simple extensible bot for Campfire.
